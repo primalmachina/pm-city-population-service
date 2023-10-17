@@ -1,0 +1,10 @@
+ignore*
+
+# Ignore node_modules everywhere in the project
+**/node_modules/
+
+# Ignore data folders
+**/data/
+
+# Ignore package-lock.json files
+**/package-lock.json
