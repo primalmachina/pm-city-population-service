@@ -33,7 +33,12 @@ export default async function buildApp() {
     console.log(error);
   });
 
-  const app = Fastify({ logger: true });
+  const app = Fastify({
+    logger: {
+      level: 'error'
+    }
+  });
+  
   app.register(router);
 
   return app;

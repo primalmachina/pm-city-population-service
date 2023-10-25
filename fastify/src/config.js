@@ -21,5 +21,5 @@ export const routeConfig = {
 
 export const data = {
   basePath: process.env.DATA_BASE_PATH ?? "data/",
-  populationDataFilename: process.env.DATA_FILENAME ?? "city_populations.csv",
+  populationDataFilename: process.env.DATA_SOURCE_FILEPATH ?? "source/city_populations.csv",
 };
